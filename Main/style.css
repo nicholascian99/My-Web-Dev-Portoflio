@@ -1,0 +1,12 @@
+h1{text-align: center;
+    border: 5px solid salmon;
+
+}
+
+aside{max-width: 200px;
+    border: 5px solid blue;
+
+}
+#bio{border: 5px solid blueviolet;
+
+}
