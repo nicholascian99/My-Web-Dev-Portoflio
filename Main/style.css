@@ -96,3 +96,8 @@ main{
     border-radius: 50%;
 
 }
+
+.social {
+    margin: auto;
+    /* border: 2px solid yellow; */
+}
