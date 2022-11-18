@@ -54,15 +54,6 @@ body{
     color: black;
 }
 
-#img-container {
-    /* border: 2px solid yellow; */
-    box-sizing: border-box;
-    width: 350px;
-    height: 400px;
-    margin-top: 30%;
-    margin-right: 30%;
-
-}
 
 
 main{
@@ -81,7 +72,7 @@ main{
     margin:auto;
     font-size: x-large;
     text-shadow: 2px 2px 4px #000000;
-
+    
 }
 
 .emphasis {
@@ -89,6 +80,15 @@ main{
     font-size: larger;
 }
 
+#img-container {
+    /* border: 2px solid yellow; */
+    box-sizing: border-box;
+    width: 350px;
+    height: 400px;
+    margin-top: 30%;
+    margin-right: 30%;
+
+}
 #selfie{
     border: 2px solid #8137729c;
     background-color:#8137729c ;
@@ -101,11 +101,16 @@ main{
 
 }
 
+.social-container{
+    border: 2px solid orange;
+    margin-left: 15px;
+}
+
 .social {
     margin-left: 5px;
-    /* width: auto; */
-    /* border: 2px solid yellow; */
+    border: 2px solid yellow;
     font-size:x-large;
+    color: black;
 }
 
 #contact-info{
