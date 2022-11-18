@@ -7,6 +7,9 @@ body{
     margin: auto ;
 }
 
+.font{
+    font-family: 'Sono', sans-serif;}
+
 #aside-container {
     /* border: 2px solid orange ; */
     background-color: #9ba4f075;
@@ -71,6 +74,7 @@ main{
 
 #p-container {    
     text-align: center;
+    font-family: 'Sono', sans-serif;
     color: white;
     width: 500px;
     height: 400px;
