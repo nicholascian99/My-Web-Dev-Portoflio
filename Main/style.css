@@ -6,12 +6,24 @@ body{
     height: 100%;
     margin: auto ;
 }
+#page-container {
+    display: flex;
+    border: 2px solid black;
+    box-sizing: border-box;
+    height: 98vh;
+    width: 99%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(0, 0, 0, 0.637);
+    /* box-shadow: 2px 2px 2px 2px; */
+}
 
 .font{
     font-family: 'Sono', sans-serif;}
 
 #aside-container {
-    /* border: 2px solid orange ; */
+    border-right: 2px solid gray ;
     background-color: #9ba4f075;
     box-sizing: border-box;
     width: 10%;
@@ -52,18 +64,6 @@ body{
 
 }
 
-#page-container {
-    display: flex;
-    /* border: 5px dotted purple; */
-    box-sizing: border-box;
-    height: 98vh;
-    width: 99%;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: rgba(0, 0, 0, 0.637);
-    box-shadow: 2px 2px 2px 2px;
-}
 
 main{
     /* border: 2px solid salmon; */
@@ -102,6 +102,20 @@ main{
 }
 
 .social {
-    margin: auto;
+    margin-left: 5px;
+    /* width: auto; */
     /* border: 2px solid yellow; */
+    font-size:x-large;
 }
+
+#contact-info{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: auto;
+    word-wrap: break-word;
+}
+
+/* .contacts {
+    
+} */
