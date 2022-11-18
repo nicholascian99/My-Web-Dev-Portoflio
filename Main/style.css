@@ -102,13 +102,13 @@ main{
 }
 
 .social-container{
-    border: 2px solid orange;
-    margin-left: 15px;
+    /* border: 2px solid orange; */
+    margin-left: 10px;
 }
 
 .social {
-    margin-left: 5px;
-    border: 2px solid yellow;
+    margin:auto;
+    /* border: 2px solid yellow; */
     font-size:x-large;
     color: black;
 }
